@@ -1,0 +1,286 @@
+ 
+  /*..................................logo css.................................*/
+  #logo{
+    font-size: 48px;
+    text-shadow: 2px 2px white;
+    color:grey;
+    font-family:sans-serif;
+
+  }
+
+
+  body{
+    background-color: #DCDCDC;
+  }
+
+  /*.....................search bar............................................*/
+     #search-bar{
+    width: 500px;
+  }
+  /*..........................option in header.................................*/
+  .options ul li{
+    display: inline;
+  }
+
+
+  /*..................................header....................................*/
+  #header{
+    background-color:black;
+  }
+ 
+
+  /*..........................nav bar -css......................................*/
+
+    .navbar-nav li:hover {
+      background:black;
+      
+      font-size: 18px;
+      }
+    .navbar-nav a {
+      text-decoration: none;
+      font-family: sans-serif;
+      }
+ 
+  #mynavbar{
+    background-color:#554429;
+  }
+
+  /*....................................Carousel...................................*/
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      
+      margin:auto;
+  }
+  .carousel {
+    margin-top: 100px;
+
+  }
+  #myCarousel .item{
+    height:auto;
+  }
+  #silde1{
+    background: url(../img/car2.jpg) top center no-repeat;
+  }
+  #silde2{
+    background: url(../img/Car1.jpg) top center no-repeat;
+  }
+  #silde3{
+    background: url(../img/car3.jpg) top center no-repeat;
+  }
+  #silde4{
+    background: url(../img/car4.jpg) top center no-repeat;
+  }
+  #silde5{
+    background: url(../img/car5.jpg) top center no-repeat;
+  }
+  #silde6{
+    background: url(../img/car6.jpg) top center no-repeat;
+  }
+
+  /*....................................Media queries for mobile..........................*/
+
+  @media (max-width: 480px)
+  {
+  #myCarousel .carousel-caption{
+    font-size: 10px;
+  }
+  #myCarousel .carousel-caption h2{
+    font-size: 14px;
+  }
+
+  #myCarousel
+  {
+    margin-top:220px;
+  }
+ #myCarousel .item{
+    height: 142px;
+  }
+  #silde1{
+    background: url(../img/car2.jpg) top center no-repeat;
+  }
+  #silde2{
+    background: url(../img/Car1.jpg) top center no-repeat;
+  }
+  #silde3{
+    background: url(../img/car3.jpg) top center no-repeat;
+  }
+  #silde4{
+    background: url(../img/car4.jpg) top center no-repeat;
+  }
+  #silde5{
+    background: url(../img/car5.jpg) top center no-repeat;
+  }
+  #silde6{
+    background: url(../img/car6.jpg) top center no-repeat;
+  }
+
+}
+}
+/*.................................................Media queries for tablets................*/
+
+
+@media (max-width: 768px){
+
+  #myCarousel .carousel-caption{
+    font-size: 10px;
+  }
+  #myCarousel .carousel-caption h2{
+    font-size: 14px;
+  }
+  
+  
+ #myCarousel .item{
+    height:200px;
+  }
+  
+ 
+
+  #silde1{
+    background: url(../img/car2.jpg) top center no-repeat;
+  }
+  #silde2{
+    background: url(../img/Car1.jpg) top center no-repeat;
+  }
+  #silde3{
+    background: url(../img/car3.jpg) top center no-repeat;
+  }
+  #silde4{
+    background: url(../img/car4.jpg) top center no-repeat;
+  }
+  #silde5{
+    background: url(../img/car5.jpg) top center no-repeat;
+  }
+  #silde6{
+    background: url(../img/car6.jpg) top center no-repeat;
+  }
+
+}
+
+}
+/*.................................................media queries desktop.......................*/
+
+
+@media (min-width:1200px){
+  #myCarousel
+  {
+
+  }
+  #myCarousel .item{
+  height: 700px;
+  }
+  #silde1{
+    background: url(../img/car2.jpg) top center no-repeat;
+  }
+  #silde2{
+    background: url(../img/Car1.jpg) top center no-repeat;
+  }
+  #silde3{
+    background: url(../img/car3.jpg) top center no-repeat;
+  }
+  #silde4{
+    background: url(../img/car4.jpg) top center no-repeat;
+  }
+  #silde5{
+    background: url(../img/car5.jpg) top center no-repeat;
+  }
+  #silde6{
+    background: url(../img/car6.jpg) top center no-repeat;
+  }
+
+
+}
+
+
+  /*................................big callout font -css......................*/
+
+
+  .well page-header{
+    margin-top: 0;
+  }
+  .well page-header h1{
+    margin-top: 0;
+  }
+
+  /*....................................Features, features-heading-css.................*/
+
+ 
+  #features img{
+  height: 200px;
+  width: 300px;
+  margin-left: 30px;
+  }
+  #review1 img{
+  height: 300px;
+  width: 100%;
+  }
+  #features table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  /*.......................................table properties.....................*/
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2
+  }
+  #bigCallout {
+
+  margin-top: 50px;
+  }
+  /*....................................more info -css..........................*/
+
+
+  .tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
+  }
+
+  /*....................................footer css...................................*/
+
+
+  .f1{
+  background-color:black;
+  color: grey;
+  clear: both;
+  height:150px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:18px;
+  padding-right: 20px;
+  margin-top: 30px;
+ 
+}
+
+.f2{
+  background-color:#554429 ;
+  color:white;
+  font-family:arial;
+  clear: both;
+  height:70px;
+  text-align: left;
+  margin-top: -15px;
+  text-indent: 30px;
+  vertical-align:middle;
+  font-size:12px;
+  padding-right: 20px;
+  }
+
+  .f2 li{
+    display: inline;
+    font-size: 10px;
+    text-align: center;
+    padding: 0 20px;
+    float: right;
+    }
+
+    .f2 li a {
+      text-decoration: none;
+      font-size: 10px;
+      font-family: arial;
+      color: white;   
+    }
+
+
+  /*..........................................................css-ends here...........................................*/
