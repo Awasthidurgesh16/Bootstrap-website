@@ -21,6 +21,9 @@
   .options ul li{
     display: inline;
   }
+  #options a{
+    color: white !important;
+  }
 
 
   /*..................................header....................................*/
@@ -42,14 +45,14 @@
       }
  
   #mynavbar{
-    background-color:#554429;
+    background-color:black;
   }
 
   /*....................................Carousel...................................*/
 
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      
+      e
       margin:auto;
   }
   .carousel {
@@ -257,8 +260,9 @@
     margin-left: 15% !important;
   }
 }
+  
 
-
+  
   #features table {
     border-collapse: collapse;
     width: 100%;
@@ -289,7 +293,7 @@
   background-color:black;
   color: grey;
   clear: both;
-  height:150px;
+  height:200px;
   text-align:center;
   vertical-align:middle;
   font-size:18px;
@@ -297,22 +301,11 @@
   margin-top: 30px;
  
 }
-
-.f2{
-  background-color:#554429 ;
-  color:white;
-  font-family:arial;
-  clear: both;
-  height:70px;
-  text-align: left;
-  margin-top: -15px;
-  text-indent: 30px;
-  vertical-align:middle;
-  font-size:12px;
-  padding-right: 20px;
+  .f1 p{
+    font-family: sans-serif;
+    font-size: 14px;
   }
-
-  .f2 li{
+  .f1 li{
     display: inline;
     font-size: 10px;
     text-align: center;
@@ -320,7 +313,7 @@
     float: right;
     }
 
-    .f2 li a {
+    .f1 li a {
       text-decoration: none;
       font-size: 10px;
       font-family: arial;
